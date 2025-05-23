@@ -6,12 +6,12 @@ pipeline {
                 docker { image 'ubuntu:latest' }
             }
         }
-    stage('Hello world') {
+        stage('Hello world') {
             agent {
                 docker { image 'Helloworld:latest' }
             }
         }
-    stage('Python') {
+        stage('Python') {
             agent {
                 docker { image 'python:latest' }
             }
