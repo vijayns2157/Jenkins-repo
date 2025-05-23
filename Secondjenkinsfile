@@ -22,7 +22,7 @@ pipeline {
         docker { image 'ubuntu:latest' }
       }
       steps {
-        sh 'hostnamectl'
+        sh 'hostname'
       }
     }
   }
